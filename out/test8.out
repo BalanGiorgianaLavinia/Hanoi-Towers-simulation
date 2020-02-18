@@ -1,0 +1,222 @@
+A_red:
+B_red:
+C_red:
+A_red:
+B_red:
+C_red:
+A_purple:
+B_purple:
+C_purple:
+A_gray: 13 7
+B_gray:
+C_gray:
+A_orange:
+B_orange:
+C_orange:
+A_green:
+B_green:
+C_green:
+A_gray: 13 7 1
+B_gray:
+C_gray:
+A_green:
+B_green:
+C_green:
+A_pink: 9
+B_pink:
+C_pink:
+A_orange: 12 9
+B_orange:
+C_orange:
+A_orange: 12 9
+B_orange:
+C_orange:
+A_pink: 9
+B_pink:
+C_pink:
+A_gray: 13 7 1
+B_gray:
+C_gray:
+A_pink: 9
+B_pink:
+C_pink:
+A_orange: 12 9 3
+B_orange:
+C_orange:
+A_red: 11 10 9 5 2
+B_red:
+C_red:
+A_white: 13 12 11 8 7 6 5 4
+B_white:
+C_white:
+A_pink: 13 9 8 6
+B_pink:
+C_pink:
+A_gray: 13 7 1
+B_gray:
+C_gray:
+A_red: 11 10 9 5 2
+B_red:
+C_red:
+A_red: 11 10 9 5 2
+B_red:
+C_red:
+A_red: 11 10 9 5 2
+B_red:
+C_red:
+A_pink: 13 9 8 6 5 3
+B_pink:
+C_pink:
+A_red: 11 10 9 5 2
+B_red:
+C_red:
+A_purple: 13 11 9 6 5 4 1
+B_purple:
+C_purple:
+A_pink: 13 9 8 6 5 3
+B_pink:
+C_pink:
+A_pink: 13 9 8 6 5 3
+B_pink:
+C_pink:
+A_purple: 13 11 9 6 5 4 1
+B_purple:
+C_purple:
+A_gray: 13 7 5 4 3 1
+B_gray:
+C_gray:
+A_blue: 9 6 3 2
+B_blue:
+C_blue:
+A_purple: 13 11 9 6 5 4 1
+B_purple:
+C_purple:
+A_purple: 13 11 9 6 5 4 1
+B_purple:
+C_purple:
+A_yellow: 14 12 10 9 5 3 2
+B_yellow:
+C_yellow:
+A_blue: 9 6 5 3 2
+B_blue:
+C_blue:
+A_blue: 9 6 5 3 2
+B_blue:
+C_blue:
+A_gray: 13 7 5 4 3 1
+B_gray:
+C_gray:
+A_pink: 13 12 11 10 9 8 7 6 5 4 3
+B_pink:
+C_pink:
+A_green: 14 13 12 11 10 6 5 3 2 1
+B_green:
+C_green:
+A_purple: 13 11 10 9 8 6 5 4 3 1
+B_purple:
+C_purple:
+A_pink: 13 12 11 10 9 8 7 6 5 4 3
+B_pink:
+C_pink:
+A_red: 11 10 9 8 5 3 2 1
+B_red:
+C_red:
+A_orange: 12 11 10 9 8 7 6 5 4 3 2 1
+B_orange:
+C_orange:
+A_blue: 9 7 6 5 4 3 2
+B_blue:
+C_blue:
+A_yellow: 14 13 12 10 9 7 5 3 2
+B_yellow:
+C_yellow:
+A_purple: 13 12 11 10 9 8 6 5 4 3 1
+B_purple:
+C_purple:
+A_gray: 13 8 7 5 4 3 1
+B_gray:
+C_gray:
+A_blue: 9 7 6 5 4 3 2
+B_blue:
+C_blue:
+A_red: 12 11 10 9 8 5 4 3 2 1
+B_red:
+C_red:
+A_purple: 13 12 11 10 9 8 6 5 4 3 1
+B_purple:
+C_purple:
+A_gray: 13 12 11 10 9 8 7 6 5 4 3 2 1
+B_gray:
+C_gray:
+A_purple: 13 12 11 10 9 8 7 6 5 4 3 2 1
+B_purple:
+C_purple:
+A_gray: 13 12 11 10 9 8 7 6 5 4 3 2 1
+B_gray:
+C_gray:
+A_yellow: 14 13 12 10 9 8 7 6 5 4 3 2 1
+B_yellow:
+C_yellow:
+A_silver: 13 12 11 10 9 8 7 6 5 4 3 2 1
+B_silver:
+C_silver:
+A_gold: 13 12 11 10 9 8 7 6 5 4 3 2 1
+B_gold:
+C_gold:
+A_silver: 13 12 11 10 9 8 7 6 5 4 3 2 1
+B_silver:
+C_silver:
+A_black: 13 12 11 10 9 8 7 6 5 4 3 2 1
+B_black:
+C_black:
+A_white: 13 12 11 10 9 8 7 6 5 4 3 2 1
+B_white:
+C_white:
+A_brown: 13 12 11 10 9 8 7 6 5 4 3 2 1
+B_brown:
+C_brown:
+A_brown: 13 12 11 10 9 8 7 6 5 4 3 2 1
+B_brown:
+C_brown:
+A_gold: 13 12 11 10 9 8 7 6 5 4 3 2 1
+B_gold:
+C_gold:
+A_azure: 13 12 11 10 9 8 7 6 5 4 3 2 1
+B_azure:
+C_azure:
+A_black: 13 12 11 10 9 8 7 6 5 4 3 2 1
+B_black:
+C_black:
+A_black: 13 12 11 10 9 8 7 6 5 4 3 2 1
+B_black:
+C_black:
+A_silver: 13 12 11 10 9 8 7 6 5 4 3 2 1
+B_silver:
+C_silver:
+A_gold: 13 12 11 10 9 8 7 6 5 4 3 2 1
+B_gold:
+C_gold:
+A_silver: 13 12 11 10 9 8 7 6 5 4 3 2 1
+B_silver:
+C_silver:
+A_black: 13 12 11 10 9 8 7 6 5 4 3 2 1
+B_black:
+C_black:
+A_gold: 13 12 11 10 9 8 7 6 5 4 3 2 1
+B_gold:
+C_gold:
+A_azure: 13 12 11 10 9 8 7 6 5 4 3 2 1
+B_azure:
+C_azure:
+A_brown: 13 12 11 10 9 8 7 6 5 4 3 2 1
+B_brown:
+C_brown:
+A_azure: 13 12 11 10 9 8 7 6 5 4 3 2 1
+B_azure:
+C_azure:
+A_brown: 13 12 11 10 9 8 7 6 5 4 3 2 1
+B_brown:
+C_brown:
+A_white: 13 12 11 10 9 8 7 6 5 4 3 2 1
+B_white:
+C_white:

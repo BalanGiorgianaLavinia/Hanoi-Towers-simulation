@@ -1,0 +1,97 @@
+/* Balan Giorgiana-Lavinia - 311CB */
+
+								- TEMA 2 SD -
+
+	In scopul realizarii acestei teme am creat mai multe fisiere:
+
+- tema2.c : acest fisier contine functia main in care deschid fisierele ce contin
+informatiile ce urmeaza a fi prelucrate in program. Citesc numarul de operatii,
+ apoi intr-o bucla for citesc toate operatiile(numele lor), iar apelul functiilor 
+ il fac prin intermediul unui switch in care evaluez valoarea de return dupa 
+ comapararea string-urilor. La sfarsitul mainului inchid fisierele deschise.
+
+ - head.h : in acest fisier declar structurile pentru celula(respectiv lista) 
+ generica, pentru stiva si pentru sistemul hanoi. Tot aici, declar si functiile 
+ utilizate si implementate in celelalte fisiere .c.
+
+ - stiva.c : acest fisier contine functiile specifice unei stive, si anume:
+ INITs, Pop, Push, AfiseazaStiva, implementate cu liste simplu inlantuite 
+ generice.
+ 	- Functia INITs realizeaza alocarea spatiului pentru o stiva goala si o 
+ 	returneaza.
+
+ 	- Functia Pop realizeaza extragerea celulei din varful stivei si 
+ 	actualizeaza varful. 
+
+ 	- Functia Push realizeaza inserarea unei celule in varful stivei data ca 
+ 	parametru(inainte de toate elementele din lista).
+
+ 	- Functia AfiseazaStiva, de tip void, primeste ca parametrii fisierul de 
+ 	output si stiva. Cu ajutorul functiilor Pop si Push extrage elementele 
+ 	din stiva data ca parametru, afiseaza informatia in output si le introduce 
+ 	intr-o stiva auxiliara pentru ca la final sa fie mutate in stiva initiala 
+ 	si stiva auxiliara sa fie eliberata.
+
+ - lista.c : acest fisier contine functia de initializare celula(InitCelula) 
+ care primeste ca parametru un pointer de tip void care reprezinta informatia 
+din celula ce urmeaza sa fie creata. Functia aloca spatiu pentru celula, ii 
+atribuie informatia dorita si ii seteaza campul urmator pe NULL, iar la 
+final o returneaza.
+
+- sistem.c : acest fisier contine functii specifice unui sistem hanoi, si 
+anume: AlocaHanoi, InsSistem si InsDisc.
+	- Functia AlocaHanoi primeste ca parametru culoare(un pointer de tip char) 
+	si realizeaza alocarea unui sistem hanoi cu campurile corespunzatoare(cele 
+	3 stive si culoarea), dupa fiecare alocare verificand reusita acesteia, 
+	iar in caz contrar reusitei facand eliberarile necesare. La final, functia 
+	returneaza sistemul hanoi creat.
+
+	- Functia InsSistem primeste ca parametrii adresa listei de sisteme hanoi 
+	si culoarea (pointer de tip char) si insereaza un nou sistem in lista cu 
+	culoarea data ca parametru. In vederea acestui lucru, creez o celula cu 
+	functia InitCelula, verific reusita acesteia, aloc un nou sistem cu 
+	functia AlocaHanoi, sistem care reprezinta informatia celulei deja create.
+	Cu ajutorul unui while ma deplasez la sfarsitul listei de sisteme, unde 
+	fac legarea noii celule. Functia este de tip int si returneaza codul de 
+	eroare sau reusita al inserarii: 1 pentru inserare reusita, 0 in caz contrar,
+	-1 daca nu reuseste vreo alocare.
+
+	- Functia InsDisc primeste ca parametrii sistemul hanoi si discul (de tip 
+	int), initializeaza o celula cu functia InitCelula, aloca dinamic spatiu 
+	pentru dimensiunea discului, leaga informatia in celula si insereaza 
+	ordonat celula in stiva implementata cu liste, inserarea realizandu-se 
+	prin extragerea elementelor mai mici si inserarea lor intr-o stiva 
+	auxiliara. Se insereaza discul in stiva principala, apoi se rastoarna 
+	stiva auxiliara in cea principala. Functia este de tip int, returnand 0 
+	pentru succes si -1 in caz contrar.
+
+- comenzi.c :  acest fisier contine functiile add si show.
+	- Functia add, de tip int, primeste ca parametrii adresa listei de 
+	sisteme, culoarea(pointer de tip char) si discul(int) ce trebuie inserat.
+	Se verifica daca lista de sisteme e vida, in acest caz se adauga noul sistem
+	de culoarea specifica. Daca lista contine sisteme, se cauta prin toate
+	culoarea dorita si se insereaza discul in stiva A. Daca aceasta culoare nu
+	exista, se va insera un nou sistem la sfarsitul listei si apoi se insereaza
+	discul in stiva A.
+
+	- Functia show, de tip void, primeste ca parametrii fisierul de output,
+	lista de sisteme hanoi si culoarea sistemului de afisat.
+	Se cauta sistemul in lista si se afiseaza outputul specific in fisier
+	cu ajutorul unei functii auxiliare de afisare a elementelor de pe fiecare
+	stiva (A, B, C). Daca in sistem nu exista culoarea pe care vrem sa o afisam
+	functia seteaza un "gasit" cu 0 si se va afisa doar 
+		A_culoare:
+		B_culoare:
+		C_culoare:
+
+
+Punctaj:
+	Pe checkerul local obtin 32 de puncte.
+
+Nu am continuat aceasta tema din lipsa de timp, fiind o perioada cu multe examene,
+dar principalul motiv este ca am inceput aceasta tema cu o idee de a implementa
+doar structura pentru sistemul hanoi, nu si pentru stiva, folosind doar un pointer
+catre prima celula din lista (varful stivei), stiind ca baza stivei este ultima
+celula din lista (celula->urm == NULL), aceasta fiind o idee nu prea buna. Am fost
+nevoita sa rescriu tot codul de la 0, implementand de aceasta data si o structura
+pentru stiva.

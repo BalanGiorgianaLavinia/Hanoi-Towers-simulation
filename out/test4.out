@@ -1,0 +1,30 @@
+A_yellow:
+B_yellow:
+C_yellow:
+A_green: 2
+B_green:
+C_green:
+A_green: 2 1
+B_green:
+C_green:
+A_yellow: 2
+B_yellow:
+C_yellow:
+A_orange: 3
+B_orange:
+C_orange:
+A_red: 3 2 1
+B_red:
+C_red:
+A_red: 3 2 1
+B_red:
+C_red:
+A_black: 3 2 1
+B_black:
+C_black:
+A_gray: 3 2 1
+B_gray:
+C_gray:
+A_pink: 3 2 1
+B_pink:
+C_pink:

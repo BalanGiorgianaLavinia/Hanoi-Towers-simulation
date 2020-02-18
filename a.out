@@ -1,0 +1,37 @@
+==1891== Conditional jump or move depends on uninitialised value(s)
+==1891==    at 0x4C33DCC: strcmp (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1891==    by 0x108CFF: add (comenzi.c:37)
+==1891==    by 0x108B83: main (tema2.c:45)
+==1891== 
+==1891== Conditional jump or move depends on uninitialised value(s)
+==1891==    at 0x4C33DBA: strcmp (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1891==    by 0x108CFF: add (comenzi.c:37)
+==1891==    by 0x108B83: main (tema2.c:45)
+==1891== 
+==1891== Conditional jump or move depends on uninitialised value(s)
+==1891==    at 0x4C33DCC: strcmp (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1891==    by 0x108C95: add (comenzi.c:20)
+==1891==    by 0x108B83: main (tema2.c:45)
+==1891== 
+==1891== Conditional jump or move depends on uninitialised value(s)
+==1891==    at 0x4C33DBA: strcmp (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1891==    by 0x108C95: add (comenzi.c:20)
+==1891==    by 0x108B83: main (tema2.c:45)
+==1891== 
+==1891== Conditional jump or move depends on uninitialised value(s)
+==1891==    at 0x4C33DCC: strcmp (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1891==    by 0x108D77: show (comenzi.c:53)
+==1891==    by 0x108BDC: main (tema2.c:54)
+==1891== 
+==1891== Conditional jump or move depends on uninitialised value(s)
+==1891==    at 0x4C33DBA: strcmp (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1891==    by 0x108D77: show (comenzi.c:53)
+==1891==    by 0x108BDC: main (tema2.c:54)
+==1891== 
+==1891== 1,009 (16 direct, 993 indirect) bytes in 1 blocks are definitely lost in loss record 14 of 14
+==1891==    at 0x4C2FB0F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1891==    by 0x10951B: InitCelula (lista.c:6)
+==1891==    by 0x109258: InsSistem (sistem.c:68)
+==1891==    by 0x108C69: add (comenzi.c:11)
+==1891==    by 0x108B83: main (tema2.c:45)
+==1891== 
